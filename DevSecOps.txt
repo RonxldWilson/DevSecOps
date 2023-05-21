@@ -1,0 +1,140 @@
+#######################################################################
+## Notes on DevSecOps
+#######################################################################
+
+Topics which will be covered:
+
+# Module 1
+    Basics of Linux
+    Server Management in Linux
+    Vagrant
+    Basics of networking
+    Project
+        Vprofile Project Intro & Setup on VM’s
+
+# Module 2
+    Bash Scripting
+    Basics of scripting
+    Variables, Conditions, Loops etc
+    Automating day to day admin tasks
+
+# Module 3
+    Cloud Computing Intro
+    IAM
+    Ec2 Instances, EBS Volumes, ELB
+    S3
+    Cloudwatch
+    RDS
+    Autoscaling
+    Route53
+    Project
+        AWS Cloud For Project Set Up Lift & Shift
+        Re-Architecting Web App on AWS Cloud [PAAS & SAAS]
+
+
+# Module 4
+    Version control system = Git & GitHub
+    Build Tools | Build & Test Java Code = Maven
+    Continuous Integration Intro
+    Jenkins
+        Jenkins as a Build Server
+        Jenkins Jobs | Build , Test, Deploy, Notify
+        Jenkins Master/Slave, Nexus, Sonarqube
+        Jenkins CI Pipeline
+        Jenkins Administration
+    Project
+        Continuous Integration Using Jenkins, Nexus, Sonarqube & Slack
+
+# Module 5
+    Python Scripting
+    Basics of python programming
+    vars, datatypes, conditions, loops, function, modules etc
+    Pythons for automating OS tasks
+
+# Module 6
+    Ansible Intro
+    Ad Hoc commands
+    Modules
+    YAML into
+    Playbooks
+        vars, conditions, loops,
+        handlers, templates etc etc etc
+    Variables deep dive
+    Roles
+    Ansible for AWS
+    Project
+        Continuous Delivery and Configuration Management [Jenkins plus Ansible]
+
+# Module 7
+    AWS Part 2
+    VPC in depth
+    Log management and custom metrics
+    Project
+        Vprofile on Beanstalk & RDS
+        Code Commit, Code Build & Code Pipeline
+        CI & CD on AWS Cloud for Vprofile Project
+        Beanstalk, RDS, CodePipeline etc
+
+# Module 8
+    Docker Intro
+    Understanding and Implementing Containers
+    Volumes, Network, logs etc
+    Building Images for Vprofile project
+    Docker compose to run vprofile multi containers
+    Kubernetes Intro
+    Kubernetes setup for production Env
+    Kubernetes objects
+        Pods, Services, Controllers, Deployment
+        Replication, Autoscaling, Resource quotas, secret, configmap, namespace.
+    Project
+        Vprofile Project deployment on Kubernetes
+
+# Module 9
+    Terraform for AWS Cloud automation
+    Cloudformation for AWS loud automation
+
+#################################################################################
+
+# Module 1
+
+    Basics of Linux
+    Server Management in Linux
+    Vagrant
+    Basics of networking
+    Project
+        Vprofile Project Intro & Setup on VM’s
+###################################################################################
+
+SDLC - Software Development LifeCycle
+    -- Waterfall
+    -- Agile
+    -- Spiral
+
+########################
+Diffrence between Development and Operations
+
+Development:
+    In todays time there is an emphasis on using faster iterations to be able to build 
+    a working model of the software as soon as possible.
+    It is all about regular and quick changes
+
+Operations:
+    Operations on the other hand prefers stability and wants to impart the principles of ITIL in their daily workings
+
+#########################
+DevOps LifeCycle
+
+Code - Developers commit the Code
+Code Build - Deployable software AKA Artifact
+
+Code Test - Unit & Integration Test
+Code Analysis - Vulnerability, best practices
+
+Delivery - Deploy changes to staging
+DB/Security/OS Changes - Every other Ops Changes 
+
+Software Testing - QA/Functional, load, performance tests
+Deploy to Prod 
+Go Live - User traffic diverted to new changes 
+User Approval - User feedback to new changes
+Monitoring 
