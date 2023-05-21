@@ -138,3 +138,10 @@ Deploy to Prod
 Go Live - User traffic diverted to new changes 
 User Approval - User feedback to new changes
 Monitoring 
+##############################
+# Continuous Integration / Continuous Delivery
+# CI/CD 
+##############################
+Continuous Integration - is an automated process in DevOps, which generates software and its feature    
+    quickly and efficeiently
+
