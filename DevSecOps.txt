@@ -145,3 +145,64 @@ Monitoring
 Continuous Integration - is an automated process in DevOps, which generates software and its feature    
     quickly and efficeiently
 
+If all the tests run well the finsihed software with the incremental feature is called an Artifact
+
+###############################
+Continuous Delivery
+
+CD is the continuation of CI, it is build upon CI 
+
+Deployment just doesnt mean Implementing the new artifact in the server, it also deals with 
+    -   Server provisioning
+    -   Dependencies mitigation
+    -   Configuration Changes
+    -   Network changes
+    -   Deploying the Artifact to the server
+
+###############################
+
+Implementation of CI/CD manually is a tremendous amount of task and requires a lot of human intervention in each and every step
+
+The best thing to be done is automate all the steps in the CI/CD pipeline
+
+####################################
+
+The best way to implement DevOps is to automate each step on the way to the user and then connect all the automated steps together
+
+####################################
+
+## Tools to install for the Course
+    1. Choclatey - To install all the other packages easily
+    2. Homebrew for MacOS
+    3. Install Vagrant
+    4. Oracle VMware
+    5. Maven
+    6. JDK
+    7. Install Git 
+    8. Install Maven
+
+## Websites to register on:
+    1. DockerHub
+    2. SonarCloud
+    3. AWS
+
+###################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
