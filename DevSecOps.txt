@@ -188,19 +188,73 @@ The best way to implement DevOps is to automate each step on the way to the user
 
 ###################################
 
+What is Virtualization?
+    -> One computer doing the job of multiple computers, running multiple OS at the same time.
+    -> Using VMware
+    -> allows one computer to run multiple OS
+    -> Partition physical resource in virtual resource
+    -> VM runs in isolated environments
+    -> Each VM needs its own OS
+    -> Server Virtualization is the most common form of virtualization
+    -> We use HyperVisor to hold multiple VMs on top of a hardware installation
+
+# Common Terminologies in DevOps
+    -   Host OS - The OS on top of the actual hardware
+    -   Guest OS -  OS of VM 
+    -   Snapshot - way of taking a backup of the machine
+    -   HyperVisor - Lets us do virtualization
+        -   Type 1  
+            -   AKA BARE METAL 
+            -   Run as a Base OS 
+            -   used for Production use case
+            -   Ex: VMware esxi, Xen Hypervisor
+        -   Type 2
+            -   This runs as a software
+            -   For learning and Testing 
+            -   Ex: Oracle 
+
+        Note - the type 1 Hypervisor can be clusetered and used for load sharing 
+
+Note - Always implement One Service - One Server(isolation)
+    -   Servers are always supposed to be overprovisioned
 
 
+## Installing VMs in VBox, both automatically and manually
+    -   Manually using a iso file 
+    -   Automatically using Vagarant
+
+#Lesson - know how to do things manually before going for automation
+
+#####################################
+## Vagrant 
+1. Intro to Vagrant
+    Vagrant is a autmoation tool to setup VM’s
+
+    VM Management Problems:
+        1. OS Installation is time consumimng
+        Tough to replicate for multin VM
+
+    In Vagrant there is no OS installation
+    VM Setup through images(Vagrant boxes)
+    Vagrantfile used for storing configs
+
+    How vagrant works is it has Vagrant images stored on the cloud which it fetches from the Web to be able to create a VM on the Hypervisor
+    
+
+2. Create VM automatically
 
 
+3. Vagrant Commands
 
+4. Vagrant Networking
 
+5. Provisioning
 
+6. RAM, CPU and Disk of VM 
 
+7. Multi VM Vagrantfile
 
-
-
-
-
+####################################
 
 
 
