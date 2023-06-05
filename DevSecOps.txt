@@ -242,7 +242,22 @@ Note - Always implement One Service - One Server(isolation)
     
 
 2. Create VM automatically
+    Go to vagarnat cloud and find the name of the box which is to be installled
 
+    CLI Commands for installing a Vagarant Image (Run these commands on Git Bash)
+    >> vagarant init <box name>
+    box name is found from vagarnat cloud website, these are the list of OS which can be installed using vagarnat
+    This will initialize the Vagarant in the repository
+    >> vagarnat up
+    This will read the file and create the VM
+    >>vagarnat ssh
+    This will log you into the VM as a Vagarnat user
+
+    >> Vagarnat hall - This will stop the VM
+
+    >> Vagarant destroy - This removes the VM from the system
+    >> Vagarant reload - to restart
+    
 
 3. Vagrant Commands
 
@@ -255,8 +270,26 @@ Note - Always implement One Service - One Server(isolation)
 7. Multi VM Vagrantfile
 
 ####################################
+## Linux 
 
+# Linux fundamental principles
+    -   Everything is a file including the hardware
+    -   Small single purpose programs
+    -   Ability to chain programs together for complex Operations
+    -   Avoidance of captive UI 
+    -   Configurations are stored in text files
 
+# Common Linux for Servers
+    -   RedHat Enterprise Linux - Not Open Source License purchase is required
+    -   Ubuntu Server - Open Source
+    -   CentOS 
+    -   Fedora - Open Source
 
+# Packaging method of Linux Distros
+    RPM based : RHEL, CentOS, Oracle Linux, Amazon Linux
+    Debian based : Ubuntu Server, Kali Linux
+
+    Red Hat distros are more stable and secure as compared to other distors
+    
 
 
